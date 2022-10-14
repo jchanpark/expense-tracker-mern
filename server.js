@@ -13,6 +13,9 @@ const { connect } = require('mongoose');
 
 const app = express();
 
+// Body parser
+app.use(express.json());
+
 app.use('/api/v1/transactions', transactions);
 
 const PORT = process.env.PORT || 5000;
