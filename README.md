@@ -4,15 +4,13 @@ Expense tracker is a simple full-stack application that tracks your income and e
 ## Getting Started
 
 1. Install dependencies: `npm i`
-2. Fix to binaries for sass: `npm rebuild node-sass`
-3. Update PSQL: see commands in [db/sql.txt](/db/sql.txt)
-4. Reset database: `npm run db:reset`
-5. Run the server: `npm run local`
-6. Visit `http://localhost:8080/`
+2. Create config.env file with your MongoDB URI based on config.env.example file
+5. Run the server: `npm start`
+6. Visit `http://localhost:5000/`
 
 ## Screenshots
 
-### Home page
+### Main page
 ![Home page](https://github.com/nathan-ts/schoodle/blob/main/docs/home.jpg)
 
 ### Create new event
